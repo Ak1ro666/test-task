@@ -1,0 +1,9 @@
+.ErrorPage {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font: var(--font-s);
+}

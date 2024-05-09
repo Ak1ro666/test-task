@@ -1,0 +1,10 @@
+.Button {
+
+
+  &.square {
+    color: var(--black-color);
+    background: var(--gray-color);
+    width: 35px;
+    height: 35px;
+  }
+}

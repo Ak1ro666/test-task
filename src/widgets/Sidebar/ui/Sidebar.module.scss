@@ -1,0 +1,19 @@
+.Sidebar {
+  position: relative;
+  background: var(--gray-color);
+  width: var(--sidebar-width);
+  height: calc(100vh - var(--navbar-height) - var(--footer-height));
+  transition: width .3s ease;
+  padding: var(--padding-m);
+  text-align: center;
+}
+
+.Sidebar.collapsed {
+  width: var(--sidebar-width-collapsed);
+}
+
+.sidebarButton {
+  position: absolute;
+  bottom: 40px;
+  right: -35px;
+}

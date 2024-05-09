@@ -1,0 +1,20 @@
+@import './reset';
+@import './variables/global';
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font: var(--font-s);
+}
+
+.wrapper {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.site-content {
+  padding: var(--padding-m);
+  flex-grow: 1;
+}

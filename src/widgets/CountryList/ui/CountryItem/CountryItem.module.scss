@@ -1,0 +1,19 @@
+.CountryItem > a {
+  display: flex;
+  padding: var(--padding-m);
+  background: var(--gray-color);
+  justify-content: space-between;
+  align-items: center;
+  width: var(--country-item-with);
+  height: var(--country-item-height);
+
+  & div:first-child {
+    display: flex;
+    gap: 20px;
+  }
+
+  & div:last-child > img {
+    max-width: 100px;
+  }
+
+}

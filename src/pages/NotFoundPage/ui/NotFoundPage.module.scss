@@ -1,0 +1,12 @@
+.NotFoundPage {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.NotFoundPage a {
+  font: var(--font-m);
+}
