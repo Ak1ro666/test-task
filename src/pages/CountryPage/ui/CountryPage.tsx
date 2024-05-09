@@ -10,7 +10,7 @@ import styles from './CountryPage.module.scss';
 const CountryPage = () => {
     const [country, setCountry] = useState<Country[]>();
     const [totalPages, setTotalPages] = useState<number>(0);
-    const [limit, setLimit] = useState<number>(12);
+    const [limit] = useState<number>(12);
     const [currentPage, setCurrentPage] = useState<number>(1);
     const [fetchCountryData, isLoadingCountry, errorCountry] = useFetching(async function() {
         const countryData = await countryServices.getAll();
